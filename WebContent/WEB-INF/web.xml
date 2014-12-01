@@ -13,7 +13,7 @@
     <description></description>
     <display-name>ServAuthAddProcessing</display-name>
     <servlet-name>ServAuthAddProcessing</servlet-name>
-    <servlet-class>main.ServAuthAddProcessing</servlet-class>
+    <servlet-class>servlet.ServAuthAddProcessing</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServAuthAddProcessing</servlet-name>
@@ -23,7 +23,7 @@
     <description></description>
     <display-name>ServAuthDel</display-name>
     <servlet-name>ServAuthDel</servlet-name>
-    <servlet-class>main.ServAuthDel</servlet-class>
+    <servlet-class>servlet.ServAuthDel</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServAuthDel</servlet-name>
@@ -33,7 +33,7 @@
     <description></description>
     <display-name>ServAuthList</display-name>
     <servlet-name>ServAuthList</servlet-name>
-    <servlet-class>main.ServAuthList</servlet-class>
+    <servlet-class>servlet.ServAuthList</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServAuthList</servlet-name>
@@ -43,7 +43,7 @@
     <description></description>
     <display-name>ServAuthMod</display-name>
     <servlet-name>ServAuthMod</servlet-name>
-    <servlet-class>main.ServAuthMod</servlet-class>
+    <servlet-class>servlet.ServAuthMod</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServAuthMod</servlet-name>
@@ -53,7 +53,7 @@
     <description></description>
     <display-name>ServAuthModProcessing</display-name>
     <servlet-name>ServAuthModProcessing</servlet-name>
-    <servlet-class>main.ServAuthModProcessing</servlet-class>
+    <servlet-class>servlet.ServAuthModProcessing</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServAuthModProcessing</servlet-name>
@@ -63,7 +63,7 @@
     <description></description>
     <display-name>ServAuthRoster</display-name>
     <servlet-name>ServAuthRoster</servlet-name>
-    <servlet-class>main.ServAuthRoster</servlet-class>
+    <servlet-class>servlet.ServAuthRoster</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServAuthRoster</servlet-name>
@@ -73,7 +73,7 @@
     <description></description>
     <display-name>ServAuthView</display-name>
     <servlet-name>ServAuthView</servlet-name>
-    <servlet-class>main.ServAuthView</servlet-class>
+    <servlet-class>servlet.ServAuthView</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServAuthView</servlet-name>
@@ -83,7 +83,7 @@
     <description></description>
     <display-name>ServCompAdd</display-name>
     <servlet-name>ServCompAdd</servlet-name>
-    <servlet-class>main.ServCompAdd</servlet-class>
+    <servlet-class>servlet.ServCompAdd</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServCompAdd</servlet-name>
@@ -93,7 +93,7 @@
     <description></description>
     <display-name>ServCompAddProcessing</display-name>
     <servlet-name>ServCompAddProcessing</servlet-name>
-    <servlet-class>main.ServCompAddProcessing</servlet-class>
+    <servlet-class>servlet.ServCompAddProcessing</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServCompAddProcessing</servlet-name>
@@ -103,7 +103,7 @@
     <description></description>
     <display-name>ServCompDel</display-name>
     <servlet-name>ServCompDel</servlet-name>
-    <servlet-class>main.ServCompDel</servlet-class>
+    <servlet-class>servlet.ServCompDel</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServCompDel</servlet-name>
@@ -113,7 +113,7 @@
     <description></description>
     <display-name>ServCompList</display-name>
     <servlet-name>ServCompList</servlet-name>
-    <servlet-class>main.ServCompList</servlet-class>
+    <servlet-class>servlet.ServCompList</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServCompList</servlet-name>
@@ -123,7 +123,7 @@
     <description></description>
     <display-name>ServCompMod</display-name>
     <servlet-name>ServCompMod</servlet-name>
-    <servlet-class>main.ServCompMod</servlet-class>
+    <servlet-class>servlet.ServCompMod</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServCompMod</servlet-name>
@@ -133,7 +133,7 @@
     <description></description>
     <display-name>ServCompModProcessing</display-name>
     <servlet-name>ServCompModProcessing</servlet-name>
-    <servlet-class>main.ServCompModProcessing</servlet-class>
+    <servlet-class>servlet.ServCompModProcessing</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServCompModProcessing</servlet-name>
@@ -143,7 +143,7 @@
     <description></description>
     <display-name>ServCompPRoster</display-name>
     <servlet-name>ServCompPRoster</servlet-name>
-    <servlet-class>main.ServCompPRoster</servlet-class>
+    <servlet-class>servlet.ServCompPRoster</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServCompPRoster</servlet-name>
@@ -153,7 +153,7 @@
     <description></description>
     <display-name>ServCompView</display-name>
     <servlet-name>ServCompView</servlet-name>
-    <servlet-class>main.ServCompView</servlet-class>
+    <servlet-class>servlet.ServCompView</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServCompView</servlet-name>
@@ -163,7 +163,7 @@
     <description></description>
     <display-name>ServDealerAdd</display-name>
     <servlet-name>ServDealerAdd</servlet-name>
-    <servlet-class>main.ServDealerAdd</servlet-class>
+    <servlet-class>servlet.ServDealerAdd</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDealerAdd</servlet-name>
@@ -173,7 +173,7 @@
     <description></description>
     <display-name>ServDealerAddProcessing</display-name>
     <servlet-name>ServDealerAddProcessing</servlet-name>
-    <servlet-class>main.ServDealerAddProcessing</servlet-class>
+    <servlet-class>servlet.ServDealerAddProcessing</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDealerAddProcessing</servlet-name>
@@ -183,7 +183,7 @@
     <description></description>
     <display-name>ServDealerDel</display-name>
     <servlet-name>ServDealerDel</servlet-name>
-    <servlet-class>main.ServDealerDel</servlet-class>
+    <servlet-class>servlet.ServDealerDel</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDealerDel</servlet-name>
@@ -193,7 +193,7 @@
     <description></description>
     <display-name>ServDealerList</display-name>
     <servlet-name>ServDealerList</servlet-name>
-    <servlet-class>main.ServDealerList</servlet-class>
+    <servlet-class>servlet.ServDealerList</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDealerList</servlet-name>
@@ -203,7 +203,7 @@
     <description></description>
     <display-name>ServDealerMod</display-name>
     <servlet-name>ServDealerMod</servlet-name>
-    <servlet-class>main.ServDealerMod</servlet-class>
+    <servlet-class>servlet.ServDealerMod</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDealerMod</servlet-name>
@@ -213,7 +213,7 @@
     <description></description>
     <display-name>ServDealerModProcessing</display-name>
     <servlet-name>ServDealerModProcessing</servlet-name>
-    <servlet-class>main.ServDealerModProcessing</servlet-class>
+    <servlet-class>servlet.ServDealerModProcessing</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDealerModProcessing</servlet-name>
@@ -223,7 +223,7 @@
     <description></description>
     <display-name>ServDealerSList</display-name>
     <servlet-name>ServDealerSList</servlet-name>
-    <servlet-class>main.ServDealerSList</servlet-class>
+    <servlet-class>servlet.ServDealerSList</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDealerSList</servlet-name>
@@ -233,7 +233,7 @@
     <description></description>
     <display-name>ServDealerView</display-name>
     <servlet-name>ServDealerView</servlet-name>
-    <servlet-class>main.ServDealerView</servlet-class>
+    <servlet-class>servlet.ServDealerView</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDealerView</servlet-name>
@@ -243,7 +243,7 @@
     <description></description>
     <display-name>ServDeptAdd</display-name>
     <servlet-name>ServDeptAdd</servlet-name>
-    <servlet-class>main.ServDeptAdd</servlet-class>
+    <servlet-class>servlet.ServDeptAdd</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDeptAdd</servlet-name>
@@ -253,7 +253,7 @@
     <description></description>
     <display-name>ServDeptAddProcessing</display-name>
     <servlet-name>ServDeptAddProcessing</servlet-name>
-    <servlet-class>main.ServDeptAddProcessing</servlet-class>
+    <servlet-class>servlet.ServDeptAddProcessing</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDeptAddProcessing</servlet-name>
@@ -263,7 +263,7 @@
     <description></description>
     <display-name>ServDeptDel</display-name>
     <servlet-name>ServDeptDel</servlet-name>
-    <servlet-class>main.ServDeptDel</servlet-class>
+    <servlet-class>servlet.ServDeptDel</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDeptDel</servlet-name>
@@ -273,7 +273,7 @@
     <description></description>
     <display-name>ServAuthAdd</display-name>
     <servlet-name>ServAuthAdd</servlet-name>
-    <servlet-class>main.ServAuthAdd</servlet-class>
+    <servlet-class>servlet.ServAuthAdd</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServAuthAdd</servlet-name>
@@ -283,7 +283,7 @@
     <description></description>
     <display-name>ServDeptHist</display-name>
     <servlet-name>ServDeptHist</servlet-name>
-    <servlet-class>main.ServDeptHist</servlet-class>
+    <servlet-class>servlet.ServDeptHist</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDeptHist</servlet-name>
@@ -293,7 +293,7 @@
     <description></description>
     <display-name>ServDeptMod</display-name>
     <servlet-name>ServDeptMod</servlet-name>
-    <servlet-class>main.ServDeptMod</servlet-class>
+    <servlet-class>servlet.ServDeptMod</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDeptMod</servlet-name>
@@ -303,7 +303,7 @@
     <description></description>
     <display-name>ServDeptModProcessing</display-name>
     <servlet-name>ServDeptModProcessing</servlet-name>
-    <servlet-class>main.ServDeptModProcessing</servlet-class>
+    <servlet-class>servlet.ServDeptModProcessing</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDeptModProcessing</servlet-name>
@@ -313,7 +313,7 @@
     <description></description>
     <display-name>ServDeptRoster</display-name>
     <servlet-name>ServDeptRoster</servlet-name>
-    <servlet-class>main.ServDeptRoster</servlet-class>
+    <servlet-class>servlet.ServDeptRoster</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDeptRoster</servlet-name>
@@ -323,7 +323,7 @@
     <description></description>
     <display-name>ServDeptView</display-name>
     <servlet-name>ServDeptView</servlet-name>
-    <servlet-class>main.ServDeptView</servlet-class>
+    <servlet-class>servlet.ServDeptView</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDeptView</servlet-name>
@@ -333,7 +333,7 @@
     <description></description>
     <display-name>ServEmpAdd</display-name>
     <servlet-name>ServEmpAdd</servlet-name>
-    <servlet-class>main.ServEmpAdd</servlet-class>
+    <servlet-class>servlet.ServEmpAdd</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServEmpAdd</servlet-name>
@@ -343,7 +343,7 @@
     <description></description>
     <display-name>ServEmpAddProcessing</display-name>
     <servlet-name>ServEmpAddProcessing</servlet-name>
-    <servlet-class>main.ServEmpAddProcessing</servlet-class>
+    <servlet-class>servlet.ServEmpAddProcessing</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServEmpAddProcessing</servlet-name>
@@ -353,7 +353,7 @@
     <description></description>
     <display-name>ServEmpDel</display-name>
     <servlet-name>ServEmpDel</servlet-name>
-    <servlet-class>main.ServEmpDel</servlet-class>
+    <servlet-class>servlet.ServEmpDel</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServEmpDel</servlet-name>
@@ -363,7 +363,7 @@
     <description></description>
     <display-name>ServEmpList</display-name>
     <servlet-name>ServEmpList</servlet-name>
-    <servlet-class>main.ServEmpList</servlet-class>
+    <servlet-class>servlet.ServEmpList</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServEmpList</servlet-name>
@@ -373,7 +373,7 @@
     <description></description>
     <display-name>ServEmpMod</display-name>
     <servlet-name>ServEmpMod</servlet-name>
-    <servlet-class>main.ServEmpMod</servlet-class>
+    <servlet-class>servlet.ServEmpMod</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServEmpMod</servlet-name>
@@ -383,7 +383,7 @@
     <description></description>
     <display-name>ServEmpModProcessing</display-name>
     <servlet-name>ServEmpModProcessing</servlet-name>
-    <servlet-class>main.ServEmpModProcessing</servlet-class>
+    <servlet-class>servlet.ServEmpModProcessing</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServEmpModProcessing</servlet-name>
@@ -393,7 +393,7 @@
     <description></description>
     <display-name>ServEmpProdEList</display-name>
     <servlet-name>ServEmpProdEList</servlet-name>
-    <servlet-class>main.ServEmpProdEList</servlet-class>
+    <servlet-class>servlet.ServEmpProdEList</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServEmpProdEList</servlet-name>
@@ -403,7 +403,7 @@
     <description></description>
     <display-name>ServEmpProdPList</display-name>
     <servlet-name>ServEmpProdPList</servlet-name>
-    <servlet-class>main.ServEmpProdPList</servlet-class>
+    <servlet-class>servlet.ServEmpProdPList</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServEmpProdPList</servlet-name>
@@ -413,7 +413,7 @@
     <description></description>
     <display-name>ServEmpView</display-name>
     <servlet-name>ServEmpView</servlet-name>
-    <servlet-class>main.ServEmpView</servlet-class>
+    <servlet-class>servlet.ServEmpView</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServEmpView</servlet-name>
@@ -423,7 +423,7 @@
     <description></description>
     <display-name>ServExit</display-name>
     <servlet-name>ServExit</servlet-name>
-    <servlet-class>main.ServExit</servlet-class>
+    <servlet-class>servlet.ServExit</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServExit</servlet-name>
@@ -433,7 +433,7 @@
     <description></description>
     <display-name>ServIndex</display-name>
     <servlet-name>ServIndex</servlet-name>
-    <servlet-class>main.ServIndex</servlet-class>
+    <servlet-class>servlet.ServIndex</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServIndex</servlet-name>
@@ -443,7 +443,7 @@
     <description></description>
     <display-name>ServProdAdd</display-name>
     <servlet-name>ServProdAdd</servlet-name>
-    <servlet-class>main.ServProdAdd</servlet-class>
+    <servlet-class>servlet.ServProdAdd</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServProdAdd</servlet-name>
@@ -453,7 +453,7 @@
     <description></description>
     <display-name>ServProdAddProcessing</display-name>
     <servlet-name>ServProdAddProcessing</servlet-name>
-    <servlet-class>main.ServProdAddProcessing</servlet-class>
+    <servlet-class>servlet.ServProdAddProcessing</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServProdAddProcessing</servlet-name>
@@ -463,7 +463,7 @@
     <description></description>
     <display-name>ServProdCRoster</display-name>
     <servlet-name>ServProdCRoster</servlet-name>
-    <servlet-class>main.ServProdCRoster</servlet-class>
+    <servlet-class>servlet.ServProdCRoster</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServProdCRoster</servlet-name>
@@ -473,7 +473,7 @@
     <description></description>
     <display-name>ServProdDel</display-name>
     <servlet-name>ServProdDel</servlet-name>
-    <servlet-class>main.ServProdDel</servlet-class>
+    <servlet-class>servlet.ServProdDel</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServProdDel</servlet-name>
@@ -483,7 +483,7 @@
     <description></description>
     <display-name>ServProdList</display-name>
     <servlet-name>ServProdList</servlet-name>
-    <servlet-class>main.ServProdList</servlet-class>
+    <servlet-class>servlet.ServProdList</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServProdList</servlet-name>
@@ -493,7 +493,7 @@
     <description></description>
     <display-name>ServProdMod</display-name>
     <servlet-name>ServProdMod</servlet-name>
-    <servlet-class>main.ServProdMod</servlet-class>
+    <servlet-class>servlet.ServProdMod</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServProdMod</servlet-name>
@@ -503,7 +503,7 @@
     <description></description>
     <display-name>ServProdModProcessing</display-name>
     <servlet-name>ServProdModProcessing</servlet-name>
-    <servlet-class>main.ServProdModProcessing</servlet-class>
+    <servlet-class>servlet.ServProdModProcessing</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServProdModProcessing</servlet-name>
@@ -513,7 +513,7 @@
     <description></description>
     <display-name>ServProdView</display-name>
     <servlet-name>ServProdView</servlet-name>
-    <servlet-class>main.ServProdView</servlet-class>
+    <servlet-class>servlet.ServProdView</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServProdView</servlet-name>
@@ -523,7 +523,7 @@
     <description></description>
     <display-name>ServSalerdAdd</display-name>
     <servlet-name>ServSalerdAdd</servlet-name>
-    <servlet-class>main.ServSalerdAdd</servlet-class>
+    <servlet-class>servlet.ServSalerdAdd</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServSalerdAdd</servlet-name>
@@ -533,7 +533,7 @@
     <description></description>
     <display-name>ServSalerdAddProcessing</display-name>
     <servlet-name>ServSalerdAddProcessing</servlet-name>
-    <servlet-class>main.ServSalerdAddProcessing</servlet-class>
+    <servlet-class>servlet.ServSalerdAddProcessing</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServSalerdAddProcessing</servlet-name>
@@ -543,7 +543,7 @@
     <description></description>
     <display-name>ServSalerdDel</display-name>
     <servlet-name>ServSalerdDel</servlet-name>
-    <servlet-class>main.ServSalerdDel</servlet-class>
+    <servlet-class>servlet.ServSalerdDel</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServSalerdDel</servlet-name>
@@ -553,7 +553,7 @@
     <description></description>
     <display-name>ServSalerdList</display-name>
     <servlet-name>ServSalerdList</servlet-name>
-    <servlet-class>main.ServSalerdList</servlet-class>
+    <servlet-class>servlet.ServSalerdList</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServSalerdList</servlet-name>
@@ -563,7 +563,7 @@
     <description></description>
     <display-name>ServSalerdView</display-name>
     <servlet-name>ServSalerdView</servlet-name>
-    <servlet-class>main.ServSalerdView</servlet-class>
+    <servlet-class>servlet.ServSalerdView</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServSalerdView</servlet-name>
@@ -573,7 +573,7 @@
     <description></description>
     <display-name>ServStat</display-name>
     <servlet-name>ServStat</servlet-name>
-    <servlet-class>main.ServStat</servlet-class>
+    <servlet-class>servlet.ServStat</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServStat</servlet-name>
@@ -583,7 +583,7 @@
     <description></description>
     <display-name>ServStatView</display-name>
     <servlet-name>ServStatView</servlet-name>
-    <servlet-class>main.ServStatView</servlet-class>
+    <servlet-class>servlet.ServStatView</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServStatView</servlet-name>
@@ -593,7 +593,7 @@
     <description></description>
     <display-name>ServLogin</display-name>
     <servlet-name>ServLogin</servlet-name>
-    <servlet-class>main.ServLogin</servlet-class>
+    <servlet-class>servlet.ServLogin</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServLogin</servlet-name>
@@ -603,7 +603,7 @@
     <description></description>
     <display-name>ServDeptList</display-name>
     <servlet-name>ServDeptList</servlet-name>
-    <servlet-class>main.ServDeptList</servlet-class>
+    <servlet-class>servlet.ServDeptList</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServDeptList</servlet-name>
