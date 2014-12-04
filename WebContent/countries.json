@@ -1,0 +1,16 @@
+<html ng-app='componentApp'><head><link href='/PCFactory/style.css' rel='stylesheet' type='text/css' />
+<script src='/PCFactory/angular.min.js'></script><script>var componentApp = angular.module('componentApp', []);componentApp.controller('componentCtrl', function ($scope, $http){$http.get('/PCFactory/categories.json').success(function(data) {$scope.categories = data;});});</script></head><body style='text-align: center' ng-controller='componentCtrl'><div class='nav'><div class='navinner'><ul class='navlist'><li><a href='/PCFactory/ServIndex'>Homepage</a></li><li><a href='/PCFactory/ServEmpView?id=null'>Information</a></li><li><a href='/PCFactory/ServExit'>Logout</a></ul></div></div>
+<h1>Create Component</h1>
+<form name='frmCompAdd' action='/PCFactory/ServCompAddProcessing' method='post'>
+<table align='center' border='1' style='border: 1px solid black; width: 80%'>
+<tr><td align='center'>Component Name:<input type='text' id='tbName' name='tbName' value='' style='width: 500px'></tr>
+<tr><td align='center'>Stock:<input type='text' id='tbStock' name='tbStock' value=''></tr>
+<tr><td align='center'>Price:<input type='text' id='tbPrice' name='tbPrice' value=''></tr>
+<tr><td align='center'>Category:<select id='Category' name='Category' ng-repeat='category in categories'>
+<option value='{{category.id}}'>{{category.name}}</option>
+</select></td></tr>
+<tr><td colspan='2' align='center'><input type='submit' name='btnSubmit' value='Confirm'></td></tr>
+</table>
+</form>
+</body>
+</html>

@@ -23,7 +23,7 @@ public class NaviMenu {
 	}
 	
 	public String printMenu() {
-		String strMenu = "<html><head><link href='/PCFactory/style.css' rel='stylesheet' type='text/css' /></head>";		
+		String strMenu = "<html><head><title>PCFactory Management System</title><link href='/PCFactory/style.css' rel='stylesheet' type='text/css' /></head>";		
 		strMenu += "<body style='text-align: center'>";
 		strMenu += "<div class='nav'><div class='navinner'><ul class='navlist'><li><a href='/PCFactory/ServIndex'>Homepage</a></li>";
 		try {

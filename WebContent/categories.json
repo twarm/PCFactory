@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Mother Board",
+    "id": 1
+  },
+  {
+    "name": "CPU",
+    "id": 2
+  },
+  {
+    "name": "RAM",
+    "id": 3
+  },
+  {
+    "name": "Graphic Card",
+    "id": 4
+  },
+  {
+    "name": "DISK",
+    "id": 5
+  },
+  {
+    "name": "Monitor",
+    "id": 6
+  },
+  {
+    "name": "DVD/CD Drive",
+    "id": 7
+  },
+  {
+    "name": "Mouse",
+    "id": 8
+  },
+  {
+    "name": "Key Board",
+    "id": 9
+  }
+]
